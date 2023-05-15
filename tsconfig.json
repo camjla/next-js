@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/pages/produto/[id].tsx", "src/pages/index.js", "app/layout.tsx", "src/pages/api/auth/[...nextauth].js"],
   "exclude": ["node_modules"]
 }
